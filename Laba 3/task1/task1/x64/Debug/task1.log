@@ -1,0 +1,28 @@
+﻿  Source.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(427,1): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(422,1): message : во время компиляции функции-члена класс шаблон "iterator<T> &Vector<T>::end(void)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(601,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "iterator<T> &Vector<T>::end(void)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(596,21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(345,30): warning C4244: аргумент: преобразование "double" в "const size_t", возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(343,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::push_back(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(598,24): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::push_back(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(419): warning C4172: возвращение адреса локальной или временной переменной : beginI
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(428): warning C4172: возвращение адреса локальной или временной переменной : endI
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task1\Source.cpp(108): warning C4717: iterator<int>::operator<: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  task1.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\x64\Debug\task1.exe

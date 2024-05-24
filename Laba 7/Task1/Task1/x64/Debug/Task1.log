@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 7\Task1\Task1\Source.cpp(151,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 7\Task1\Task1\Source.cpp(161,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 7\Task1\Task1\Source.cpp(206,13): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Task1.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 7\Task1\x64\Debug\Task1.exe

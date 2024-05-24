@@ -1,0 +1,56 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,56): error C2665: "Node::Node": ни одна перегруженная функция не может преобразовать все типы аргументов
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 2\ГЕРОИН\ГЕРОИН\Source.cpp(9,1): message : может быть "Node::Node(Node &&)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,56): message : "Node::Node(Node &&)": невозможно преобразовать аргумент 1 из "_Ty" в "Node &&"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,77): message : Причина: невозможно преобразовать "_Ty" в "Node"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,77): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 2\ГЕРОИН\ГЕРОИН\Source.cpp(9,1): message : или       "Node::Node(const Node &)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,56): message : "Node::Node(const Node &)": невозможно преобразовать аргумент 1 из "_Ty" в "const Node &"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,77): message : Причина: невозможно преобразовать "_Ty" в "const Node"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,77): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 2\ГЕРОИН\ГЕРОИН\Source.cpp(8,2): message : или       "Node::Node(int)"
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,56): message : "Node::Node(int)": невозможно преобразовать аргумент 1 из "_Ty" в "int"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,77): message : Не существует контекста, в котором такое преобразование возможно
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\xutility(231,56): message : при попытке сопоставить список аргументов "(_Ty)"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\memory(2023,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Construct_in_place<_Ty,Node*>(_Ty &,Node *&&) noexcept(false)"
+          with
+          [
+              _Ty=Node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\memory(2703,36): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<Node>::_Ref_count_obj2<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\include\memory(2704,20): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<Node>::_Ref_count_obj2<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=Node *
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 2\ГЕРОИН\ГЕРОИН\Source.cpp(23,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Node> std::make_shared<Node,Node*>(Node *&&)"
+  ГЕРОИН.cpp
+  Создание кода...

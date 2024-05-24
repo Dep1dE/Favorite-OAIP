@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>601</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QListWidget" name="listWidget">
+       <property name="cursor" stdset="0">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>601</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../32743.png</normaloff>../32743.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="Edit">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Дата рождения :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Ввести</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../png-transparent-gradient-arrow-arrow-gradual-change-instruction.png</normaloff>../png-transparent-gradient-arrow-arrow-gradual-change-instruction.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>601</width>
+      <height>102</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="1" column="0" colspan="2">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="placeholderText">
+        <string>Добавление/Изменение элементов</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Добавить элемент</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../png-clipart-computer-icons-insert-computer-software-column-blue-angle.png</normaloff>../png-clipart-computer-icons-insert-computer-software-column-blue-angle.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Изменить элемент</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../336-3366890_free-online-tool-to-convert-png-to-ico.jpg</normaloff>../336-3366890_free-online-tool-to-convert-png-to-ico.jpg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Выбрать элемент</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../png-clipart-check-mark-computer-icons-icon-design-fleche-angle-text-thumbnail.png</normaloff>../png-clipart-check-mark-computer-icons-icon-design-fleche-angle-text-thumbnail.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>602</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

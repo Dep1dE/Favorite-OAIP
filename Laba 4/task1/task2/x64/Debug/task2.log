@@ -1,0 +1,4 @@
+﻿  task2.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 4\task1\task2\task2.cpp(172,1): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 4\task1\task2\task2.cpp(182,1): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+  task2.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 4\task1\x64\Debug\task2.exe

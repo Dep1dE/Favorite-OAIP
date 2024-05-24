@@ -1,0 +1,36 @@
+﻿  Source.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(104,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(103,1): message : во время компиляции функции-члена класс шаблон "T &Deque<T>::operator [](const size_t &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(123,18): message : выполняется компиляция ссылки на экземпляр шаблон функции "T &Deque<T>::operator [](const size_t &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(116,13): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Deque<int>"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(50,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(45,1): message : во время компиляции функции-члена класс шаблон "void Deque<int>::push_front(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(118,15): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Deque<int>::push_front(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(27,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(22,1): message : во время компиляции функции-члена класс шаблон "void Deque<int>::push_back(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\task2\Source.cpp(128,14): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Deque<int>::push_back(T)"
+          with
+          [
+              T=int
+          ]
+  task2.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 5\task2\x64\Debug\task2.exe

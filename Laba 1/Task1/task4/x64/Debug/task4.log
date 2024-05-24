@@ -1,0 +1,6 @@
+﻿  BinaryOperation.cpp
+  Expression.cpp
+  Number.cpp
+  task4.cpp
+C:\Users\stepa\Desktop\ОАиП\Laba1\Task1\task4\task4.cpp(6,10): fatal  error C1083: Не удается открыть файл включение: Expression.cpp: No such file or directory,
+  Создание кода...

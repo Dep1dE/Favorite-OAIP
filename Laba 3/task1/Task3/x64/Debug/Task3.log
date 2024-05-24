@@ -1,0 +1,32 @@
+﻿  Source.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(295,30): warning C4244: аргумент: преобразование "double" в "const size_t", возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(293,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::push_back(T &&)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(552,24): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::push_back(T &&)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(543,16): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int>"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(288,30): warning C4244: аргумент: преобразование "double" в "const size_t", возможна потеря данных
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(286,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::push_back(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(563,20): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::push_back(T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(406,1): warning C4267: =: преобразование из "size_t" в "T"; возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(402,1): message : во время компиляции функции-члена класс шаблон "void Vector<int>::Swap(size_t,size_t)"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\Task3\Source.cpp(531,29): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int>::Swap(size_t,size_t)"
+  Task3.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\x64\Debug\Task3.exe

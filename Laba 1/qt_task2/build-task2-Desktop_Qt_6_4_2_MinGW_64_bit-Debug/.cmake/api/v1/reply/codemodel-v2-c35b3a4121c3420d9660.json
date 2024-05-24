@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6734195f2aa48ba1dca4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "task2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "task2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2-Debug-bf6d1600b3857f21f0bc.json",
+					"name" : "task2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_autogen-Debug-a03c43bad7fb501ce80d.json",
+					"name" : "task2_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_autogen_timestamp_deps-Debug-92dbd38a6e3a72c08da1.json",
+					"name" : "task2_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/stepa/Desktop/BSUIR/OAIP/Laba1/qt_task2/build-task2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/stepa/Desktop/BSUIR/OAIP/Laba1/qt_task2/task2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

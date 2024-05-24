@@ -1,0 +1,7 @@
+﻿  BinaryOperation.cpp
+  Expression.cpp
+  Number.cpp
+  Source.cpp
+  Создание кода...
+C:\Users\stepa\Desktop\ОАиП\Laba1\Task1\task3\BinaryOperation.cpp(27): warning C4715: BinaryOperation::evaluate: значение возвращается не при всех путях выполнения
+  task3.vcxproj -> C:\Users\stepa\Desktop\ОАиП\Laba1\Task1\x64\Debug\task3.exe

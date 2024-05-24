@@ -1,0 +1,15 @@
+# ninja log v5
+15	773	7001202211420177	task2_autogen/timestamp	577769347a316395
+727	3704	7001201876167477	CMakeFiles/task2.dir/mainwindow.cpp.obj	63259c5fb5e817bd
+15	773	7001202211420177	task2_autogen/mocs_compilation.cpp	577769347a316395
+709	3558	7001201874674390	CMakeFiles/task2.dir/task2_autogen/mocs_compilation.cpp.obj	5df6686631016747
+15	773	7001202211420177	C:/Users/stepa/Desktop/BSUIR/OAIP/Laba1/qt_task2/build-task2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/task2_autogen/timestamp	577769347a316395
+1853	2056	7001196282817531	task2.exe	2de58bc9e06f7b1f
+15	773	7001202211420177	C:/Users/stepa/Desktop/BSUIR/OAIP/Laba1/qt_task2/build-task2-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/task2_autogen/mocs_compilation.cpp	577769347a316395
+714	3473	7001201873790247	CMakeFiles/task2.dir/main.cpp.obj	d4e521c370bdc97f
+721	3790	7001201876975952	CMakeFiles/task2.dir/window1.cpp.obj	a6f83dae5cc4103f
+1	711	7001202221339655	build.ninja	240532b3666fe77d
+717	3488	7001201873969764	CMakeFiles/task2.dir/window2.cpp.obj	194a2ffa3fdf1d4f
+543	2001	7001196099332400	CMakeFiles/task2.dir/work.cpp.obj	b3162d784dbe91bf
+878	3695	7001199166104824	CMakeFiles/task2.dir/window.cpp.obj	d9eaf05755a0b81b
+732	3495	7001201874082934	CMakeFiles/task2.dir/window3.cpp.obj	72694d93f0f7c9dd

@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task2\Source.cpp(42,9): warning C4552: "~": результат выражения не используется
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task2\Source.cpp(41,1): message : во время компиляции функции-члена класс шаблон "pair<int,int>::~pair(void)"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task2\Source.cpp(61,23): message : выполняется компиляция ссылки на экземпляр шаблон функции "pair<int,int>::~pair(void)"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task2\Source.cpp(61,24): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "pair<int,int>"
+C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\task2\Source.cpp(43,9): warning C4552: "~": результат выражения не используется
+  task2.vcxproj -> C:\Users\stepa\Desktop\BSUIR\OAIP\Laba 3\task1\x64\Debug\task2.exe

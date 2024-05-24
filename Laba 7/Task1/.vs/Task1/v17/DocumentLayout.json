@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C363EC-56D9-4D7D-AECF-C70223B6BFEF}|Task1\\Task1.vcxproj|D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C363EC-56D9-4D7D-AECF-C70223B6BFEF}|Task1\\Task1.vcxproj|solutionrelative:Task1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B8CFFC8-AECC-49AB-8F88-8449C6A35666}|Task2\\Task2.vcxproj|D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B8CFFC8-AECC-49AB-8F88-8449C6A35666}|Task2\\Task2.vcxproj|solutionrelative:Task2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task2\\Source.cpp",
+              "RelativeDocumentMoniker": "Task2\\Source.cpp",
+              "ToolTip": "D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task2\\Source.cpp",
+              "RelativeToolTip": "Task2\\Source.cpp",
+              "ViewState": "AQIAAN0BAAAAAAAAAAAAAOkCAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T15:28:07.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task1\\Source.cpp",
+              "RelativeDocumentMoniker": "Task1\\Source.cpp",
+              "ToolTip": "D:\\WorkTable\\BSUIR\\OAIP\\Laba 7\\Task1\\Task1\\Source.cpp",
+              "RelativeToolTip": "Task1\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T15:28:07.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

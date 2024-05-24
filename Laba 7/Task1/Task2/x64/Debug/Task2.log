@@ -1,0 +1,171 @@
+﻿  Source.cpp
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,22): error C2228: выражение слева от ".second" должно представлять класс, структуру или объединение
+  D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,22):
+  тип: LNode<T> *
+          with
+          [
+              T=std::pair<int,int>
+          ]
+  D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,22):
+  возможно, имеется в виду "->"
+  D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,22):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(761,29):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Unordered_map<int,int,std::hash<int>>"
+  	D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(740,21):
+  	во время компиляции функции-члена класс шаблон "std::pair<T,K> Unordered_map<T,K,std::hash<int>>::find(const K &)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  		D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(763,39):
+  		см. первую ссылку на "Unordered_map<int,int,std::hash<int>>::find" в "main"
+  
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440: return: невозможно преобразовать "LNode<T> *" в "std::pair<T,K>"
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         with
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         [
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:             T=std::pair<int,int>
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         ]
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         and
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         [
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:             T=int,
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:             K=int
+D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35): error C2440:         ]
+  D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35):
+  "std::pair<T,K>::pair": ни одна перегруженная функция не может преобразовать все типы аргументов
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(254,5):
+  	может быть "std::pair<T,K>::pair(std::pair<T,K> &&)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  		D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35):
+  		"std::pair<T,K>::pair(std::pair<T,K> &&)": невозможно преобразовать аргумент 1 из "LNode<T> *" в "std::pair<T,K> &&"
+          with
+          [
+              T=int,
+              K=int
+          ]
+          and
+          [
+              T=std::pair<int,int>
+          ]
+          and
+          [
+              T=int,
+              K=int
+          ]
+  			D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,45):
+  			Причина: невозможно преобразовать "LNode<T> *" в "std::pair<T,K>"
+          with
+          [
+              T=std::pair<int,int>
+          ]
+          and
+          [
+              T=int,
+              K=int
+          ]
+  			D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,45):
+  			Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(253,5):
+  	или       "std::pair<T,K>::pair(const std::pair<T,K> &)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  		D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35):
+  		"std::pair<T,K>::pair(const std::pair<T,K> &)": невозможно преобразовать аргумент 1 из "LNode<T> *" в "const std::pair<T,K> &"
+          with
+          [
+              T=int,
+              K=int
+          ]
+          and
+          [
+              T=std::pair<int,int>
+          ]
+          and
+          [
+              T=int,
+              K=int
+          ]
+  			D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,45):
+  			Причина: невозможно преобразовать "LNode<T> *" в "const std::pair<T,K>"
+          with
+          [
+              T=std::pair<int,int>
+          ]
+          and
+          [
+              T=int,
+              K=int
+          ]
+  			D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,45):
+  			Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(312,5):
+  	или       "std::pair<T,K>::pair(std::piecewise_construct_t,std::tuple<_Types1...>,std::tuple<_Types2...>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(308,5):
+  	или       "std::pair<T,K>::pair(_Tuple1 &,_Tuple2 &,std::integer_sequence<size_t,_Indices1...>,std::integer_sequence<size_t,_Indices2...>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(275,5):
+  	или       "std::pair<T,K>::pair(std::pair<_Other1,_Other2> &&) noexcept(<expr>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(268,5):
+  	или       "std::pair<T,K>::pair(const std::pair<_Other1,_Other2> &) noexcept(<expr>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(247,5):
+  	или       "std::pair<T,K>::pair(_Other1 &&,_Other2 &&) noexcept(<expr>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(236,5):
+  	или       "std::pair<T,K>::pair(const _Ty1 &,const _Ty2 &) noexcept(<expr>)"
+          with
+          [
+              T=int,
+              K=int,
+              _Ty1=int,
+              _Ty2=int
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(228,5):
+  	или       "std::pair<T,K>::pair(void) noexcept(<expr>)"
+          with
+          [
+              T=int,
+              K=int
+          ]
+  	D:\WorkTable\BSUIR\OAIP\Laba 7\Task1\Task2\Source.cpp(746,35):
+  	при попытке сопоставить список аргументов "(LNode<T> *)"
+          with
+          [
+              T=std::pair<int,int>
+          ]
+  
